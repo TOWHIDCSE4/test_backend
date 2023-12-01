@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        // Import non-ES modules as default imports.
+        "esModuleInterop": true,
+        // Target latest version of ECMAScript.
+        "target": "ES2019",
+        // Process & infer types from .js files.
+        "allowJs": true,
+        // Enable strictNullChecks & noImplicitAny.
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "strictFunctionTypes": false,
+        "noImplicitThis": false,
+        // Search under node_modules for non-relative imports.
+        "moduleResolution": "node",
+        // Import .json files
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "outDir": "build",
+        "baseUrl": "./",
+        // Turn off Typescript 4 unknown type in catch clause variable to support legacy code
+        // "useUnknownInCatchVariables": false,
+        "paths": {
+            "*": ["node_modules/*", "app/types/*"]
+        }
+    },
+    "include": ["app/**/*", "app/locales/en.json", "app/locales/vi.json"],
+    "exclude": [".templates", "docs/index.js"]
+}

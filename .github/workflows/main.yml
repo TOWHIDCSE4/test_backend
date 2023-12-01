@@ -1,0 +1,39 @@
+name: CI/CD branch Main
+on:
+    push:
+        branches: [main]
+    workflow_dispatch:
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Publish to Github Packages Registry
+              uses: elgohr/Publish-Docker-Github-Action@v4
+              with:
+                  name: ispeakvn/ispeak-backend/ispeak-backend
+                  registry: docker.pkg.github.com
+                  username: ${{ secrets.DOCKER_USERNAME }}
+                  password: ${{ secrets.DOCKER_TOKEN }}
+                  dockerfile: Dockerfile-Prod
+                  tags: main
+            - name: SSH and deploy node app
+              uses: appleboy/ssh-action@master
+              env:
+                  E_TAG: main
+                  NODE_ENV: production
+                  SOURCE_DIR: ${{ secrets.SOURCE_PROD }}
+                  DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+                  DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
+              with:
+                  host: ${{ secrets.SSH_HOST_PROD }}
+                  username: ${{ secrets.SSH_USERNAME_PROD }}
+                  key: ${{ secrets.SSH_KEY_PROD }}
+                  passphrase: ${{ secrets.SSH_PASSPHRASE_PROD }}
+                  port: ${{ secrets.SSH_PORT_PROD }}
+                  envs: SOURCE_DIR, E_TAG, NODE_ENV, DOCKER_USERNAME, DOCKER_TOKEN
+                  script: |
+                      cd $SOURCE_DIR
+                      docker login docker.pkg.github.com -u $DOCKER_USERNAME -p $DOCKER_TOKEN
+                      docker pull docker.pkg.github.com/ispeakvn/ispeak-backend/ispeak-backend:$E_TAG
+                      docker-compose up -d --force-recreate --no-deps --build backend

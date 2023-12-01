@@ -1,0 +1,31 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./**/tsconfig.json",
+        "sourceType": "module"
+    },
+    "plugins": ["@typescript-eslint/eslint-plugin"],
+    "extends": ["plugin:@typescript-eslint/recommended"],
+    "root": true,
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "rules": {
+        "@typescript-eslint/interface-name-prefix": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "comma-dangle": "off",
+        "semi-colon": "off",
+        "@typescript-eslint/no-var-requires": 1,
+        "prefer-const": 1,
+        "@typescript-eslint/ban-ts-comment": 1,
+        "@typescript-eslint/no-this-alias": 1,
+        "@typescript-eslint/ban-types": 1,
+        "@typescript-eslint/no-array-constructor": 1,
+        "@typescript-eslint/no-extra-semi": 1,
+        "@typescript-eslint/consistent-indexed-object-style": "off"
+    }
+}

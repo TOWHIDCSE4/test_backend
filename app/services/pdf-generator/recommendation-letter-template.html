@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thư tư vấn</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://api.englishplus.vn/api/v1/st/ftp/uploads/recommendation-letter.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div style="padding-right: 0px; padding: 20px; margin-bottom: 20px">
+                <h2>THƯ ĐÁNH GIÁ TRÌNH ĐỘ VÀ TƯ VẤN LỘ TRÌNH</h2>
+                <br />
+                <div>
+                    <p>
+                        <span>
+                            <strong>
+                                Kính gửi Quý phụ huynh: {{receiver}} !
+                            </strong>
+                        </span>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <span>
+                            Hệ thống Anh ngữ trực tuyến EnglishPlus xin trâng
+                            trọng cảm ơn sự quan tâm của phụ huynh Quý học viên
+                            đối với chương trình học tiếng Anh trực tuyến một
+                            thầy một trò.
+                        </span>
+                    </p>
+                    <p>
+                        <span>
+                            Dưới đây là các đánh giá thông qua buổi học trải
+                            nghiệm trình độ của học viên:
+                        </span>
+                    </p>
+                    <p>
+                        <span
+                            ><strong
+                                >Tên học viên: {{student_name}}</strong
+                            ></span
+                        ><br />
+                        <span><strong>Tuổi: {{student_age}}</strong></span
+                        ><br />
+                        <span
+                            ><strong
+                                >Giáo viên giảng dạy: {{teacher_name}}</strong
+                            ></span
+                        ><br />
+                        <span><strong>Điểm số: </strong></span><br />
+                    </p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <table>
+                        <colgroup>
+                            <col style="width: 40%" />
+                            <col style="width: 12%" />
+                            <col style="width: 12%" />
+                            <col style="width: 12%" />
+                            <col style="width: 12%" />
+                            <col style="width: 12%" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <span><strong>Họ tên</strong></span>
+                                </th>
+                                <th>
+                                    <span><strong>Nghe</strong></span>
+                                </th>
+                                <th>
+                                    <span><strong>Nói</strong></span>
+                                </th>
+                                <th>
+                                    <span><strong>Đọc</strong></span>
+                                </th>
+                                <th>
+                                    <span><strong>Viết</strong></span>
+                                </th>
+                                <th>
+                                    <span><strong>Điểm TB</strong></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span>{{student_name}}</span>
+                                </td>
+                                <td>
+                                    <span>{{assessments.listening_point}}</span>
+                                </td>
+                                <td>
+                                    <span>{{assessments.speaking_point}}</span>
+                                </td>
+                                <td>
+                                    <span>{{assessments.reading_point}}</span>
+                                </td>
+                                <td>
+                                    <span>{{assessments.writing_point}}</span>
+                                </td>
+                                <td>
+                                    <span>{{assessments.average}}</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <canvas id="myChart" style="width: 100%"></canvas>
+                    <p>
+                        <span><strong>Nhận xét:</strong></span>
+                    </p>
+                    <p>
+                        <span
+                            >- Môi trường học tập:
+                            {{assessments.learning_environment_comment}}</span
+                        >
+                    </p>
+                    <p>
+                        <span
+                            >- Kỹ năng nghe:
+                            {{assessments.listening_comment}}</span
+                        >
+                    </p>
+                    <p>
+                        <span
+                            >- Kỹ năng nói:
+                            {{assessments.speaking_comment}}</span
+                        >
+                    </p>
+                    <p>
+                        <span
+                            >- Kỹ năng đọc:
+                            {{assessments.reading_comment}}</span
+                        >
+                    </p>
+                    <p>
+                        <span
+                            >- Kỹ năng viết:
+                            {{assessments.writing_comment}}</span
+                        >
+                    </p>
+                    <p>
+                        <span
+                            >- Thái độ học tập:
+                            {{assessments.learning_attitude_comment}}</span
+                        >
+                    </p>
+                    <p>
+                        <span
+                            ><strong>- Điểm trung bình:</strong>
+                            {{assessments.average}}</span
+                        >
+                    </p>
+                    <p>
+                        <span
+                            ><strong
+                                >Trình độ hiện tại: Level
+                                {{starting_level.id}}/16 - Tương đương trình độ
+                                {{starting_level.name}} (theo khung
+                                CEFR)</strong
+                            ></span
+                        >
+                    </p>
+                    <p>
+                        <span>
+                            <strong>Nhận xét chung: </strong>
+                            Học viên cần tìm một môi trường Anh ngữ chuyên
+                            nghiệp để rèn luyện và tăng cường thời gian tiếp xúc
+                            với tiếng Anh. iSpeak tự tin sẽ là nền tảng học tập
+                            phù hợp và mang lại hứng thú trong hành trình làm
+                            chủ ngôn ngữ này.
+                        </span>
+                    </p>
+                    <p>
+                        <span>
+                            Trên cơ sở bài kiểm tra trình độ của học viên, Hội
+                            đồng tư vấn iSpeak xin đề xuất chương trình cho học
+                            viên như sau:
+                        </span>
+                    </p>
+                    <p>
+                        <span
+                            ><strong
+                                >Giáo trình: {{curriculum.name}}</strong
+                            ></span
+                        >
+                    </p>
+                    <p>
+                        <span>{{curriculum.description}}</span>
+                    </p>
+                    <p>
+                        <span>
+                            <strong>
+                                Mô tả đầu ra dự kiến: Level {{end_level.id}}/16
+                                - Tương đương trình độ {{starting_level.name}}
+                                (theo khung CEFR)
+                            </strong>
+                        </span>
+                    </p>
+                    <p>
+                        <span>{{end_level.vocabulary_description}}</span>
+                    </p>
+                    <p>
+                        <span>{{end_level.skill_description}}</span>
+                    </p>
+                    <p>
+                        <span>{{end_level.grammar_description}}</span>
+                    </p>
+                    <p>
+                        <span>{{end_level.speaking_description}}</span>
+                    </p>
+                    <p>
+                        <span>
+                            Để đăng ký khóa học, vui lòng liên hệ với Hệ thống
+                            Anh ngữ trực tuyến iSpeak theo các thông tin dưới
+                            đây:
+                        </span>
+                    </p>
+                    <div>
+                        <span
+                            ><strong
+                                >Công ty CP Công nghệ và Đào tạo trực tuyến
+                                HAMIA</strong
+                            ></span
+                        >
+                    </div>
+                    <div>
+                        <div>
+                            <span
+                                ><strong>Địa chỉ: Tháp C</strong> - Tòa Paragon
+                                Hanoi- Ngõ 86 Duy Tân- Cầu Giấy- Hà Nội</span
+                            >
+                        </div>
+                        <div>
+                            <span><strong>Hotline</strong>: 19002095</span>
+                        </div>
+                        <div>
+                            <span
+                                ><strong>Email</strong>:
+                                <a href="mailto:info@ispeak.vn"
+                                    >info@ispeak.vn</a
+                                >
+                                -
+                                <a href="mailto:support@ispeak.vn"
+                                    >support@ispeak.vn</a
+                                ></span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span id="listening_point" style="display: none"
+                >{{assessments.listening_point}}</span
+            >
+            <span id="speaking_point" style="display: none"
+                >{{assessments.speaking_point}}</span
+            >
+            <span id="reading_point" style="display: none"
+                >{{assessments.reading_point}}</span
+            >
+            <span id="writing_point" style="display: none"
+                >{{assessments.writing_point}}</span
+            >
+            <span id="average" style="display: none"
+                >{{assessments.average}}</span
+            >
+        </div>
+        <script>
+            const listening_point =
+                document.getElementById("listening_point").innerText;
+            const speaking_point =
+                document.getElementById("speaking_point").innerText;
+            const reading_point =
+                document.getElementById("reading_point").innerText;
+            const writing_point =
+                document.getElementById("writing_point").innerText;
+            const average = document.getElementById("average").innerText;
+            var xValues = ["Nghe", "Nói", "Đọc", "Viết", "Điểm TB"];
+            var yValues = [
+                listening_point,
+                speaking_point,
+                reading_point,
+                writing_point,
+                average,
+            ];
+            var barColors = [
+                "rgba(32, 92, 189)",
+                "rgba(32, 92, 189)",
+                "rgba(32, 92, 189)",
+                "rgba(32, 92, 189)",
+                "rgba(32, 92, 189)",
+            ];
+
+            new Chart("myChart", {
+                type: "bar",
+                data: {
+                    labels: xValues,
+                    datasets: [
+                        {
+                            backgroundColor: barColors,
+                            data: yValues,
+                        },
+                    ],
+                },
+                options: {
+                    legend: { display: false },
+                    title: {
+                        display: true,
+                        text: "BẢNG ĐIỂM",
+                    },
+                },
+            });
+        </script>
+    </body>
+</html>

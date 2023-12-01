@@ -1,0 +1,2310 @@
+[
+    {
+        "user_id": null,
+        "bookings": 8
+    },
+    {
+        "user_id": 30,
+        "bookings": 167
+    },
+    {
+        "user_id": 31,
+        "bookings": 20
+    },
+    {
+        "user_id": 32,
+        "bookings": 11
+    },
+    {
+        "user_id": 33,
+        "bookings": 22
+    },
+    {
+        "user_id": 34,
+        "bookings": 37
+    },
+    {
+        "user_id": 43,
+        "bookings": 537
+    },
+    {
+        "user_id": 44,
+        "bookings": 69
+    },
+    {
+        "user_id": 45,
+        "bookings": 3275
+    },
+    {
+        "user_id": 46,
+        "bookings": 33
+    },
+    {
+        "user_id": 47,
+        "bookings": 8
+    },
+    {
+        "user_id": 52,
+        "bookings": 33
+    },
+    {
+        "user_id": 57,
+        "bookings": 72
+    },
+    {
+        "user_id": 58,
+        "bookings": 110
+    },
+    {
+        "user_id": 61,
+        "bookings": 1
+    },
+    {
+        "user_id": 63,
+        "bookings": 7
+    },
+    {
+        "user_id": 77,
+        "bookings": 1
+    },
+    {
+        "user_id": 81,
+        "bookings": 72
+    },
+    {
+        "user_id": 89,
+        "bookings": 1
+    },
+    {
+        "user_id": 102,
+        "bookings": 1
+    },
+    {
+        "user_id": 104,
+        "bookings": 1
+    },
+    {
+        "user_id": 106,
+        "bookings": 1
+    },
+    {
+        "user_id": 132,
+        "bookings": 1
+    },
+    {
+        "user_id": 149,
+        "bookings": 131
+    },
+    {
+        "user_id": 268,
+        "bookings": 2
+    },
+    {
+        "user_id": 387,
+        "bookings": 1
+    },
+    {
+        "user_id": 401,
+        "bookings": 125
+    },
+    {
+        "user_id": 402,
+        "bookings": 3
+    },
+    {
+        "user_id": 432,
+        "bookings": 191
+    },
+    {
+        "user_id": 433,
+        "bookings": 2
+    },
+    {
+        "user_id": 434,
+        "bookings": 435
+    },
+    {
+        "user_id": 443,
+        "bookings": 61
+    },
+    {
+        "user_id": 661,
+        "bookings": 2465
+    },
+    {
+        "user_id": 663,
+        "bookings": 1
+    },
+    {
+        "user_id": 669,
+        "bookings": 1
+    },
+    {
+        "user_id": 675,
+        "bookings": 87
+    },
+    {
+        "user_id": 696,
+        "bookings": 1
+    },
+    {
+        "user_id": 720,
+        "bookings": 10
+    },
+    {
+        "user_id": 766,
+        "bookings": 1
+    },
+    {
+        "user_id": 773,
+        "bookings": 1
+    },
+    {
+        "user_id": 775,
+        "bookings": 208
+    },
+    {
+        "user_id": 829,
+        "bookings": 4
+    },
+    {
+        "user_id": 845,
+        "bookings": 1
+    },
+    {
+        "user_id": 848,
+        "bookings": 2
+    },
+    {
+        "user_id": 849,
+        "bookings": 1
+    },
+    {
+        "user_id": 859,
+        "bookings": 1
+    },
+    {
+        "user_id": 869,
+        "bookings": 1
+    },
+    {
+        "user_id": 874,
+        "bookings": 11
+    },
+    {
+        "user_id": 884,
+        "bookings": 282
+    },
+    {
+        "user_id": 886,
+        "bookings": 33
+    },
+    {
+        "user_id": 954,
+        "bookings": 4462
+    },
+    {
+        "user_id": 984,
+        "bookings": 2
+    },
+    {
+        "user_id": 1013,
+        "bookings": 12
+    },
+    {
+        "user_id": 1031,
+        "bookings": 1
+    },
+    {
+        "user_id": 1052,
+        "bookings": 92
+    },
+    {
+        "user_id": 1102,
+        "bookings": 1
+    },
+    {
+        "user_id": 1207,
+        "bookings": 2
+    },
+    {
+        "user_id": 1211,
+        "bookings": 260
+    },
+    {
+        "user_id": 1226,
+        "bookings": 4231
+    },
+    {
+        "user_id": 1231,
+        "bookings": 1
+    },
+    {
+        "user_id": 1257,
+        "bookings": 84
+    },
+    {
+        "user_id": 1263,
+        "bookings": 5201
+    },
+    {
+        "user_id": 1284,
+        "bookings": 965
+    },
+    {
+        "user_id": 1307,
+        "bookings": 799
+    },
+    {
+        "user_id": 1526,
+        "bookings": 2
+    },
+    {
+        "user_id": 1529,
+        "bookings": 1
+    },
+    {
+        "user_id": 1538,
+        "bookings": 1
+    },
+    {
+        "user_id": 1545,
+        "bookings": 69
+    },
+    {
+        "user_id": 1566,
+        "bookings": 1417
+    },
+    {
+        "user_id": 1569,
+        "bookings": 3
+    },
+    {
+        "user_id": 1668,
+        "bookings": 20
+    },
+    {
+        "user_id": 1701,
+        "bookings": 435
+    },
+    {
+        "user_id": 1753,
+        "bookings": 883
+    },
+    {
+        "user_id": 1765,
+        "bookings": 88
+    },
+    {
+        "user_id": 1766,
+        "bookings": 1
+    },
+    {
+        "user_id": 1780,
+        "bookings": 1
+    },
+    {
+        "user_id": 1791,
+        "bookings": 2836
+    },
+    {
+        "user_id": 1821,
+        "bookings": 19
+    },
+    {
+        "user_id": 1825,
+        "bookings": 3103
+    },
+    {
+        "user_id": 1865,
+        "bookings": 15
+    },
+    {
+        "user_id": 1908,
+        "bookings": 175
+    },
+    {
+        "user_id": 1934,
+        "bookings": 917
+    },
+    {
+        "user_id": 1957,
+        "bookings": 1145
+    },
+    {
+        "user_id": 1958,
+        "bookings": 376
+    },
+    {
+        "user_id": 1960,
+        "bookings": 345
+    },
+    {
+        "user_id": 1972,
+        "bookings": 214
+    },
+    {
+        "user_id": 1985,
+        "bookings": 1
+    },
+    {
+        "user_id": 2118,
+        "bookings": 4
+    },
+    {
+        "user_id": 2273,
+        "bookings": 134
+    },
+    {
+        "user_id": 2277,
+        "bookings": 154
+    },
+    {
+        "user_id": 2358,
+        "bookings": 2438
+    },
+    {
+        "user_id": 2411,
+        "bookings": 8414
+    },
+    {
+        "user_id": 2436,
+        "bookings": 1070
+    },
+    {
+        "user_id": 2442,
+        "bookings": 1
+    },
+    {
+        "user_id": 2590,
+        "bookings": 68
+    },
+    {
+        "user_id": 2835,
+        "bookings": 937
+    },
+    {
+        "user_id": 2931,
+        "bookings": 22
+    },
+    {
+        "user_id": 3001,
+        "bookings": 180
+    },
+    {
+        "user_id": 3081,
+        "bookings": 31
+    },
+    {
+        "user_id": 3113,
+        "bookings": 1
+    },
+    {
+        "user_id": 3135,
+        "bookings": 8
+    },
+    {
+        "user_id": 3305,
+        "bookings": 11
+    },
+    {
+        "user_id": 3421,
+        "bookings": 4
+    },
+    {
+        "user_id": 3555,
+        "bookings": 1
+    },
+    {
+        "user_id": 3566,
+        "bookings": 11
+    },
+    {
+        "user_id": 3611,
+        "bookings": 3
+    },
+    {
+        "user_id": 3722,
+        "bookings": 43
+    },
+    {
+        "user_id": 3786,
+        "bookings": 1
+    },
+    {
+        "user_id": 3811,
+        "bookings": 70
+    },
+    {
+        "user_id": 3860,
+        "bookings": 1
+    },
+    {
+        "user_id": 3885,
+        "bookings": 1
+    },
+    {
+        "user_id": 3976,
+        "bookings": 1
+    },
+    {
+        "user_id": 4011,
+        "bookings": 49
+    },
+    {
+        "user_id": 4031,
+        "bookings": 179
+    },
+    {
+        "user_id": 4084,
+        "bookings": 27
+    },
+    {
+        "user_id": 4108,
+        "bookings": 126
+    },
+    {
+        "user_id": 4161,
+        "bookings": 1
+    },
+    {
+        "user_id": 4178,
+        "bookings": 4
+    },
+    {
+        "user_id": 4193,
+        "bookings": 4
+    },
+    {
+        "user_id": 4246,
+        "bookings": 1
+    },
+    {
+        "user_id": 4257,
+        "bookings": 11
+    },
+    {
+        "user_id": 4272,
+        "bookings": 1
+    },
+    {
+        "user_id": 4321,
+        "bookings": 1
+    },
+    {
+        "user_id": 4342,
+        "bookings": 867
+    },
+    {
+        "user_id": 4407,
+        "bookings": 978
+    },
+    {
+        "user_id": 4498,
+        "bookings": 2555
+    },
+    {
+        "user_id": 4582,
+        "bookings": 1
+    },
+    {
+        "user_id": 4602,
+        "bookings": 19
+    },
+    {
+        "user_id": 4638,
+        "bookings": 3600
+    },
+    {
+        "user_id": 4653,
+        "bookings": 772
+    },
+    {
+        "user_id": 4685,
+        "bookings": 536
+    },
+    {
+        "user_id": 4701,
+        "bookings": 575
+    },
+    {
+        "user_id": 4835,
+        "bookings": 2
+    },
+    {
+        "user_id": 4876,
+        "bookings": 12
+    },
+    {
+        "user_id": 4920,
+        "bookings": 1
+    },
+    {
+        "user_id": 4946,
+        "bookings": 1062
+    },
+    {
+        "user_id": 5022,
+        "bookings": 18
+    },
+    {
+        "user_id": 5033,
+        "bookings": 4
+    },
+    {
+        "user_id": 5051,
+        "bookings": 1
+    },
+    {
+        "user_id": 5089,
+        "bookings": 316
+    },
+    {
+        "user_id": 5281,
+        "bookings": 4206
+    },
+    {
+        "user_id": 5282,
+        "bookings": 8
+    },
+    {
+        "user_id": 5284,
+        "bookings": 28
+    },
+    {
+        "user_id": 5347,
+        "bookings": 2
+    },
+    {
+        "user_id": 5348,
+        "bookings": 8
+    },
+    {
+        "user_id": 5349,
+        "bookings": 31
+    },
+    {
+        "user_id": 5359,
+        "bookings": 53
+    },
+    {
+        "user_id": 5393,
+        "bookings": 22
+    },
+    {
+        "user_id": 5599,
+        "bookings": 64
+    },
+    {
+        "user_id": 5638,
+        "bookings": 5068
+    },
+    {
+        "user_id": 5688,
+        "bookings": 35
+    },
+    {
+        "user_id": 5745,
+        "bookings": 25
+    },
+    {
+        "user_id": 5747,
+        "bookings": 25
+    },
+    {
+        "user_id": 5766,
+        "bookings": 1
+    },
+    {
+        "user_id": 5774,
+        "bookings": 491
+    },
+    {
+        "user_id": 5792,
+        "bookings": 4088
+    },
+    {
+        "user_id": 5816,
+        "bookings": 888
+    },
+    {
+        "user_id": 5908,
+        "bookings": 1
+    },
+    {
+        "user_id": 5921,
+        "bookings": 1
+    },
+    {
+        "user_id": 5930,
+        "bookings": 1
+    },
+    {
+        "user_id": 5933,
+        "bookings": 99
+    },
+    {
+        "user_id": 5945,
+        "bookings": 1340
+    },
+    {
+        "user_id": 5955,
+        "bookings": 27
+    },
+    {
+        "user_id": 5975,
+        "bookings": 53
+    },
+    {
+        "user_id": 6051,
+        "bookings": 9540
+    },
+    {
+        "user_id": 6227,
+        "bookings": 47
+    },
+    {
+        "user_id": 6242,
+        "bookings": 1
+    },
+    {
+        "user_id": 6290,
+        "bookings": 1
+    },
+    {
+        "user_id": 6578,
+        "bookings": 5170
+    },
+    {
+        "user_id": 6692,
+        "bookings": 92
+    },
+    {
+        "user_id": 6711,
+        "bookings": 2
+    },
+    {
+        "user_id": 6732,
+        "bookings": 40
+    },
+    {
+        "user_id": 6757,
+        "bookings": 8
+    },
+    {
+        "user_id": 6840,
+        "bookings": 1
+    },
+    {
+        "user_id": 6849,
+        "bookings": 5777
+    },
+    {
+        "user_id": 6932,
+        "bookings": 16
+    },
+    {
+        "user_id": 7048,
+        "bookings": 1
+    },
+    {
+        "user_id": 7118,
+        "bookings": 86
+    },
+    {
+        "user_id": 7190,
+        "bookings": 41
+    },
+    {
+        "user_id": 7325,
+        "bookings": 1
+    },
+    {
+        "user_id": 7343,
+        "bookings": 39
+    },
+    {
+        "user_id": 7435,
+        "bookings": 63
+    },
+    {
+        "user_id": 7436,
+        "bookings": 84
+    },
+    {
+        "user_id": 7470,
+        "bookings": 18
+    },
+    {
+        "user_id": 7530,
+        "bookings": 277
+    },
+    {
+        "user_id": 7554,
+        "bookings": 779
+    },
+    {
+        "user_id": 7603,
+        "bookings": 421
+    },
+    {
+        "user_id": 7610,
+        "bookings": 1
+    },
+    {
+        "user_id": 7698,
+        "bookings": 1
+    },
+    {
+        "user_id": 7702,
+        "bookings": 3247
+    },
+    {
+        "user_id": 7727,
+        "bookings": 7
+    },
+    {
+        "user_id": 7754,
+        "bookings": 2
+    },
+    {
+        "user_id": 7762,
+        "bookings": 1
+    },
+    {
+        "user_id": 7764,
+        "bookings": 1
+    },
+    {
+        "user_id": 7798,
+        "bookings": 64
+    },
+    {
+        "user_id": 7815,
+        "bookings": 343
+    },
+    {
+        "user_id": 7827,
+        "bookings": 129
+    },
+    {
+        "user_id": 7887,
+        "bookings": 2
+    },
+    {
+        "user_id": 7932,
+        "bookings": 1
+    },
+    {
+        "user_id": 7946,
+        "bookings": 1
+    },
+    {
+        "user_id": 7950,
+        "bookings": 597
+    },
+    {
+        "user_id": 7960,
+        "bookings": 5
+    },
+    {
+        "user_id": 8007,
+        "bookings": 2
+    },
+    {
+        "user_id": 8056,
+        "bookings": 1
+    },
+    {
+        "user_id": 8101,
+        "bookings": 85
+    },
+    {
+        "user_id": 8111,
+        "bookings": 1
+    },
+    {
+        "user_id": 8112,
+        "bookings": 2
+    },
+    {
+        "user_id": 8211,
+        "bookings": 12
+    },
+    {
+        "user_id": 8226,
+        "bookings": 1
+    },
+    {
+        "user_id": 8283,
+        "bookings": 1
+    },
+    {
+        "user_id": 8286,
+        "bookings": 17
+    },
+    {
+        "user_id": 8298,
+        "bookings": 1
+    },
+    {
+        "user_id": 8354,
+        "bookings": 6170
+    },
+    {
+        "user_id": 8441,
+        "bookings": 7
+    },
+    {
+        "user_id": 8486,
+        "bookings": 1
+    },
+    {
+        "user_id": 8489,
+        "bookings": 2
+    },
+    {
+        "user_id": 8593,
+        "bookings": 3
+    },
+    {
+        "user_id": 8614,
+        "bookings": 597
+    },
+    {
+        "user_id": 8645,
+        "bookings": 10
+    },
+    {
+        "user_id": 8788,
+        "bookings": 1
+    },
+    {
+        "user_id": 8881,
+        "bookings": 1
+    },
+    {
+        "user_id": 8901,
+        "bookings": 1493
+    },
+    {
+        "user_id": 8997,
+        "bookings": 2
+    },
+    {
+        "user_id": 9080,
+        "bookings": 1511
+    },
+    {
+        "user_id": 9150,
+        "bookings": 850
+    },
+    {
+        "user_id": 9167,
+        "bookings": 70
+    },
+    {
+        "user_id": 9201,
+        "bookings": 58
+    },
+    {
+        "user_id": 9287,
+        "bookings": 31
+    },
+    {
+        "user_id": 9327,
+        "bookings": 591
+    },
+    {
+        "user_id": 9387,
+        "bookings": 3017
+    },
+    {
+        "user_id": 9508,
+        "bookings": 1434
+    },
+    {
+        "user_id": 9528,
+        "bookings": 410
+    },
+    {
+        "user_id": 9601,
+        "bookings": 12
+    },
+    {
+        "user_id": 9602,
+        "bookings": 2
+    },
+    {
+        "user_id": 9616,
+        "bookings": 1
+    },
+    {
+        "user_id": 9630,
+        "bookings": 2949
+    },
+    {
+        "user_id": 9670,
+        "bookings": 65
+    },
+    {
+        "user_id": 9695,
+        "bookings": 514
+    },
+    {
+        "user_id": 9728,
+        "bookings": 10
+    },
+    {
+        "user_id": 9770,
+        "bookings": 6182
+    },
+    {
+        "user_id": 9771,
+        "bookings": 10425
+    },
+    {
+        "user_id": 9798,
+        "bookings": 8021
+    },
+    {
+        "user_id": 9907,
+        "bookings": 115
+    },
+    {
+        "user_id": 9977,
+        "bookings": 2327
+    },
+    {
+        "user_id": 10019,
+        "bookings": 231
+    },
+    {
+        "user_id": 10115,
+        "bookings": 249
+    },
+    {
+        "user_id": 10173,
+        "bookings": 486
+    },
+    {
+        "user_id": 10286,
+        "bookings": 7951
+    },
+    {
+        "user_id": 10290,
+        "bookings": 950
+    },
+    {
+        "user_id": 10325,
+        "bookings": 5533
+    },
+    {
+        "user_id": 10330,
+        "bookings": 1193
+    },
+    {
+        "user_id": 10350,
+        "bookings": 3150
+    },
+    {
+        "user_id": 10407,
+        "bookings": 34
+    },
+    {
+        "user_id": 10446,
+        "bookings": 1304
+    },
+    {
+        "user_id": 10474,
+        "bookings": 179
+    },
+    {
+        "user_id": 10522,
+        "bookings": 7087
+    },
+    {
+        "user_id": 10551,
+        "bookings": 133
+    },
+    {
+        "user_id": 10580,
+        "bookings": 28
+    },
+    {
+        "user_id": 10641,
+        "bookings": 74
+    },
+    {
+        "user_id": 10649,
+        "bookings": 1180
+    },
+    {
+        "user_id": 10651,
+        "bookings": 1250
+    },
+    {
+        "user_id": 10686,
+        "bookings": 8
+    },
+    {
+        "user_id": 10750,
+        "bookings": 4064
+    },
+    {
+        "user_id": 10751,
+        "bookings": 401
+    },
+    {
+        "user_id": 10779,
+        "bookings": 366
+    },
+    {
+        "user_id": 10876,
+        "bookings": 991
+    },
+    {
+        "user_id": 10951,
+        "bookings": 536
+    },
+    {
+        "user_id": 10991,
+        "bookings": 573
+    },
+    {
+        "user_id": 10993,
+        "bookings": 1453
+    },
+    {
+        "user_id": 11095,
+        "bookings": 3405
+    },
+    {
+        "user_id": 11105,
+        "bookings": 5507
+    },
+    {
+        "user_id": 11167,
+        "bookings": 9629
+    },
+    {
+        "user_id": 11422,
+        "bookings": 9
+    },
+    {
+        "user_id": 11439,
+        "bookings": 12
+    },
+    {
+        "user_id": 11464,
+        "bookings": 425
+    },
+    {
+        "user_id": 11480,
+        "bookings": 89
+    },
+    {
+        "user_id": 11562,
+        "bookings": 53
+    },
+    {
+        "user_id": 11596,
+        "bookings": 3079
+    },
+    {
+        "user_id": 11677,
+        "bookings": 194
+    },
+    {
+        "user_id": 11807,
+        "bookings": 64
+    },
+    {
+        "user_id": 11838,
+        "bookings": 36
+    },
+    {
+        "user_id": 11869,
+        "bookings": 2839
+    },
+    {
+        "user_id": 11874,
+        "bookings": 14
+    },
+    {
+        "user_id": 11905,
+        "bookings": 6793
+    },
+    {
+        "user_id": 11934,
+        "bookings": 7
+    },
+    {
+        "user_id": 11962,
+        "bookings": 19
+    },
+    {
+        "user_id": 11986,
+        "bookings": 22
+    },
+    {
+        "user_id": 12013,
+        "bookings": 5275
+    },
+    {
+        "user_id": 12035,
+        "bookings": 117
+    },
+    {
+        "user_id": 12036,
+        "bookings": 60
+    },
+    {
+        "user_id": 12131,
+        "bookings": 513
+    },
+    {
+        "user_id": 12147,
+        "bookings": 41
+    },
+    {
+        "user_id": 12198,
+        "bookings": 2029
+    },
+    {
+        "user_id": 12208,
+        "bookings": 4938
+    },
+    {
+        "user_id": 12307,
+        "bookings": 143
+    },
+    {
+        "user_id": 12323,
+        "bookings": 3958
+    },
+    {
+        "user_id": 12342,
+        "bookings": 4085
+    },
+    {
+        "user_id": 12376,
+        "bookings": 1342
+    },
+    {
+        "user_id": 12433,
+        "bookings": 82
+    },
+    {
+        "user_id": 12435,
+        "bookings": 2
+    },
+    {
+        "user_id": 12459,
+        "bookings": 565
+    },
+    {
+        "user_id": 12483,
+        "bookings": 30
+    },
+    {
+        "user_id": 12527,
+        "bookings": 355
+    },
+    {
+        "user_id": 12580,
+        "bookings": 5807
+    },
+    {
+        "user_id": 12630,
+        "bookings": 9
+    },
+    {
+        "user_id": 12792,
+        "bookings": 102
+    },
+    {
+        "user_id": 12816,
+        "bookings": 162
+    },
+    {
+        "user_id": 12892,
+        "bookings": 2636
+    },
+    {
+        "user_id": 12900,
+        "bookings": 84
+    },
+    {
+        "user_id": 12985,
+        "bookings": 952
+    },
+    {
+        "user_id": 13002,
+        "bookings": 5
+    },
+    {
+        "user_id": 13055,
+        "bookings": 1021
+    },
+    {
+        "user_id": 13113,
+        "bookings": 6854
+    },
+    {
+        "user_id": 13131,
+        "bookings": 950
+    },
+    {
+        "user_id": 13275,
+        "bookings": 12
+    },
+    {
+        "user_id": 13302,
+        "bookings": 2349
+    },
+    {
+        "user_id": 13353,
+        "bookings": 1383
+    },
+    {
+        "user_id": 13364,
+        "bookings": 2038
+    },
+    {
+        "user_id": 13381,
+        "bookings": 98
+    },
+    {
+        "user_id": 13392,
+        "bookings": 2254
+    },
+    {
+        "user_id": 13413,
+        "bookings": 3772
+    },
+    {
+        "user_id": 13426,
+        "bookings": 3877
+    },
+    {
+        "user_id": 13434,
+        "bookings": 3301
+    },
+    {
+        "user_id": 13489,
+        "bookings": 2437
+    },
+    {
+        "user_id": 13516,
+        "bookings": 3013
+    },
+    {
+        "user_id": 13528,
+        "bookings": 40
+    },
+    {
+        "user_id": 13633,
+        "bookings": 3948
+    },
+    {
+        "user_id": 13723,
+        "bookings": 237
+    },
+    {
+        "user_id": 13753,
+        "bookings": 2854
+    },
+    {
+        "user_id": 13801,
+        "bookings": 92
+    },
+    {
+        "user_id": 13833,
+        "bookings": 1083
+    },
+    {
+        "user_id": 13927,
+        "bookings": 3439
+    },
+    {
+        "user_id": 13951,
+        "bookings": 2009
+    },
+    {
+        "user_id": 13975,
+        "bookings": 901
+    },
+    {
+        "user_id": 14042,
+        "bookings": 953
+    },
+    {
+        "user_id": 14083,
+        "bookings": 3366
+    },
+    {
+        "user_id": 14129,
+        "bookings": 1098
+    },
+    {
+        "user_id": 14145,
+        "bookings": 103
+    },
+    {
+        "user_id": 14162,
+        "bookings": 858
+    },
+    {
+        "user_id": 14181,
+        "bookings": 4543
+    },
+    {
+        "user_id": 14225,
+        "bookings": 4758
+    },
+    {
+        "user_id": 14226,
+        "bookings": 2261
+    },
+    {
+        "user_id": 14268,
+        "bookings": 1997
+    },
+    {
+        "user_id": 14270,
+        "bookings": 772
+    },
+    {
+        "user_id": 14272,
+        "bookings": 1297
+    },
+    {
+        "user_id": 14286,
+        "bookings": 417
+    },
+    {
+        "user_id": 14303,
+        "bookings": 590
+    },
+    {
+        "user_id": 14363,
+        "bookings": 615
+    },
+    {
+        "user_id": 14404,
+        "bookings": 25
+    },
+    {
+        "user_id": 14423,
+        "bookings": 2405
+    },
+    {
+        "user_id": 14516,
+        "bookings": 124
+    },
+    {
+        "user_id": 14539,
+        "bookings": 640
+    },
+    {
+        "user_id": 14541,
+        "bookings": 3143
+    },
+    {
+        "user_id": 14553,
+        "bookings": 5471
+    },
+    {
+        "user_id": 14588,
+        "bookings": 2342
+    },
+    {
+        "user_id": 14645,
+        "bookings": 2021
+    },
+    {
+        "user_id": 14678,
+        "bookings": 1826
+    },
+    {
+        "user_id": 14721,
+        "bookings": 59
+    },
+    {
+        "user_id": 14798,
+        "bookings": 840
+    },
+    {
+        "user_id": 14803,
+        "bookings": 20
+    },
+    {
+        "user_id": 14809,
+        "bookings": 209
+    },
+    {
+        "user_id": 14811,
+        "bookings": 38
+    },
+    {
+        "user_id": 14813,
+        "bookings": 13
+    },
+    {
+        "user_id": 14815,
+        "bookings": 2329
+    },
+    {
+        "user_id": 14857,
+        "bookings": 7402
+    },
+    {
+        "user_id": 15010,
+        "bookings": 2051
+    },
+    {
+        "user_id": 15058,
+        "bookings": 4502
+    },
+    {
+        "user_id": 15065,
+        "bookings": 187
+    },
+    {
+        "user_id": 15227,
+        "bookings": 2411
+    },
+    {
+        "user_id": 15260,
+        "bookings": 1920
+    },
+    {
+        "user_id": 15402,
+        "bookings": 1701
+    },
+    {
+        "user_id": 15411,
+        "bookings": 638
+    },
+    {
+        "user_id": 15427,
+        "bookings": 3338
+    },
+    {
+        "user_id": 15611,
+        "bookings": 373
+    },
+    {
+        "user_id": 15618,
+        "bookings": 1353
+    },
+    {
+        "user_id": 15640,
+        "bookings": 1410
+    },
+    {
+        "user_id": 15844,
+        "bookings": 433
+    },
+    {
+        "user_id": 15956,
+        "bookings": 251
+    },
+    {
+        "user_id": 15960,
+        "bookings": 1505
+    },
+    {
+        "user_id": 16034,
+        "bookings": 550
+    },
+    {
+        "user_id": 16045,
+        "bookings": 220
+    },
+    {
+        "user_id": 16059,
+        "bookings": 3574
+    },
+    {
+        "user_id": 16218,
+        "bookings": 875
+    },
+    {
+        "user_id": 16292,
+        "bookings": 1366
+    },
+    {
+        "user_id": 16391,
+        "bookings": 34
+    },
+    {
+        "user_id": 16463,
+        "bookings": 1455
+    },
+    {
+        "user_id": 16587,
+        "bookings": 67
+    },
+    {
+        "user_id": 16610,
+        "bookings": 1524
+    },
+    {
+        "user_id": 16628,
+        "bookings": 1281
+    },
+    {
+        "user_id": 16631,
+        "bookings": 766
+    },
+    {
+        "user_id": 16684,
+        "bookings": 462
+    },
+    {
+        "user_id": 16685,
+        "bookings": 295
+    },
+    {
+        "user_id": 16721,
+        "bookings": 1404
+    },
+    {
+        "user_id": 16740,
+        "bookings": 865
+    },
+    {
+        "user_id": 16866,
+        "bookings": 778
+    },
+    {
+        "user_id": 16867,
+        "bookings": 999
+    },
+    {
+        "user_id": 16935,
+        "bookings": 2199
+    },
+    {
+        "user_id": 17071,
+        "bookings": 1411
+    },
+    {
+        "user_id": 17135,
+        "bookings": 750
+    },
+    {
+        "user_id": 17228,
+        "bookings": 1553
+    },
+    {
+        "user_id": 17255,
+        "bookings": 1975
+    },
+    {
+        "user_id": 17265,
+        "bookings": 1533
+    },
+    {
+        "user_id": 17349,
+        "bookings": 3828
+    },
+    {
+        "user_id": 17357,
+        "bookings": 277
+    },
+    {
+        "user_id": 17359,
+        "bookings": 704
+    },
+    {
+        "user_id": 17463,
+        "bookings": 427
+    },
+    {
+        "user_id": 17560,
+        "bookings": 1461
+    },
+    {
+        "user_id": 17660,
+        "bookings": 4859
+    },
+    {
+        "user_id": 17663,
+        "bookings": 4355
+    },
+    {
+        "user_id": 17769,
+        "bookings": 847
+    },
+    {
+        "user_id": 18066,
+        "bookings": 1212
+    },
+    {
+        "user_id": 18134,
+        "bookings": 2018
+    },
+    {
+        "user_id": 18164,
+        "bookings": 1263
+    },
+    {
+        "user_id": 18343,
+        "bookings": 367
+    },
+    {
+        "user_id": 18374,
+        "bookings": 1620
+    },
+    {
+        "user_id": 18378,
+        "bookings": 412
+    },
+    {
+        "user_id": 18415,
+        "bookings": 96
+    },
+    {
+        "user_id": 18452,
+        "bookings": 518
+    },
+    {
+        "user_id": 18456,
+        "bookings": 955
+    },
+    {
+        "user_id": 18464,
+        "bookings": 4
+    },
+    {
+        "user_id": 18492,
+        "bookings": 61
+    },
+    {
+        "user_id": 18533,
+        "bookings": 132
+    },
+    {
+        "user_id": 18716,
+        "bookings": 57
+    },
+    {
+        "user_id": 18803,
+        "bookings": 1418
+    },
+    {
+        "user_id": 18833,
+        "bookings": 393
+    },
+    {
+        "user_id": 18849,
+        "bookings": 1376
+    },
+    {
+        "user_id": 19271,
+        "bookings": 6
+    },
+    {
+        "user_id": 19395,
+        "bookings": 1051
+    },
+    {
+        "user_id": 19397,
+        "bookings": 1054
+    },
+    {
+        "user_id": 19416,
+        "bookings": 1222
+    },
+    {
+        "user_id": 19590,
+        "bookings": 160
+    },
+    {
+        "user_id": 19636,
+        "bookings": 36
+    },
+    {
+        "user_id": 19660,
+        "bookings": 270
+    },
+    {
+        "user_id": 19909,
+        "bookings": 1060
+    },
+    {
+        "user_id": 20049,
+        "bookings": 515
+    },
+    {
+        "user_id": 20144,
+        "bookings": 1103
+    },
+    {
+        "user_id": 20177,
+        "bookings": 32
+    },
+    {
+        "user_id": 20219,
+        "bookings": 46
+    },
+    {
+        "user_id": 20246,
+        "bookings": 421
+    },
+    {
+        "user_id": 20277,
+        "bookings": 1026
+    },
+    {
+        "user_id": 20279,
+        "bookings": 423
+    },
+    {
+        "user_id": 20362,
+        "bookings": 2414
+    },
+    {
+        "user_id": 20612,
+        "bookings": 1163
+    },
+    {
+        "user_id": 20656,
+        "bookings": 59
+    },
+    {
+        "user_id": 20769,
+        "bookings": 548
+    },
+    {
+        "user_id": 20819,
+        "bookings": 984
+    },
+    {
+        "user_id": 20900,
+        "bookings": 613
+    },
+    {
+        "user_id": 21067,
+        "bookings": 812
+    },
+    {
+        "user_id": 21094,
+        "bookings": 259
+    },
+    {
+        "user_id": 21128,
+        "bookings": 410
+    },
+    {
+        "user_id": 21132,
+        "bookings": 72
+    },
+    {
+        "user_id": 21189,
+        "bookings": 2093
+    },
+    {
+        "user_id": 21210,
+        "bookings": 1267
+    },
+    {
+        "user_id": 21284,
+        "bookings": 716
+    },
+    {
+        "user_id": 21324,
+        "bookings": 1208
+    },
+    {
+        "user_id": 21352,
+        "bookings": 295
+    },
+    {
+        "user_id": 21374,
+        "bookings": 15
+    },
+    {
+        "user_id": 21377,
+        "bookings": 11
+    },
+    {
+        "user_id": 21408,
+        "bookings": 1903
+    },
+    {
+        "user_id": 21644,
+        "bookings": 115
+    },
+    {
+        "user_id": 21828,
+        "bookings": 1531
+    },
+    {
+        "user_id": 21980,
+        "bookings": 1001
+    },
+    {
+        "user_id": 22073,
+        "bookings": 896
+    },
+    {
+        "user_id": 22078,
+        "bookings": 1024
+    },
+    {
+        "user_id": 22101,
+        "bookings": 1199
+    },
+    {
+        "user_id": 22216,
+        "bookings": 106
+    },
+    {
+        "user_id": 22230,
+        "bookings": 874
+    },
+    {
+        "user_id": 22496,
+        "bookings": 759
+    },
+    {
+        "user_id": 22552,
+        "bookings": 1295
+    },
+    {
+        "user_id": 22601,
+        "bookings": 511
+    },
+    {
+        "user_id": 22728,
+        "bookings": 1156
+    },
+    {
+        "user_id": 22840,
+        "bookings": 657
+    },
+    {
+        "user_id": 22874,
+        "bookings": 1011
+    },
+    {
+        "user_id": 23052,
+        "bookings": 401
+    },
+    {
+        "user_id": 23148,
+        "bookings": 616
+    },
+    {
+        "user_id": 23183,
+        "bookings": 780
+    },
+    {
+        "user_id": 23191,
+        "bookings": 3
+    },
+    {
+        "user_id": 23320,
+        "bookings": 1028
+    },
+    {
+        "user_id": 23389,
+        "bookings": 35
+    },
+    {
+        "user_id": 23390,
+        "bookings": 287
+    },
+    {
+        "user_id": 23495,
+        "bookings": 1175
+    },
+    {
+        "user_id": 23553,
+        "bookings": 408
+    },
+    {
+        "user_id": 23590,
+        "bookings": 165
+    },
+    {
+        "user_id": 23626,
+        "bookings": 822
+    },
+    {
+        "user_id": 23687,
+        "bookings": 429
+    },
+    {
+        "user_id": 23812,
+        "bookings": 690
+    },
+    {
+        "user_id": 23918,
+        "bookings": 168
+    },
+    {
+        "user_id": 23987,
+        "bookings": 60
+    },
+    {
+        "user_id": 24120,
+        "bookings": 120
+    },
+    {
+        "user_id": 24225,
+        "bookings": 463
+    },
+    {
+        "user_id": 24296,
+        "bookings": 165
+    },
+    {
+        "user_id": 24304,
+        "bookings": 520
+    },
+    {
+        "user_id": 24331,
+        "bookings": 258
+    },
+    {
+        "user_id": 24398,
+        "bookings": 470
+    },
+    {
+        "user_id": 24565,
+        "bookings": 1028
+    },
+    {
+        "user_id": 24650,
+        "bookings": 429
+    },
+    {
+        "user_id": 24705,
+        "bookings": 320
+    },
+    {
+        "user_id": 24756,
+        "bookings": 26
+    },
+    {
+        "user_id": 24795,
+        "bookings": 617
+    },
+    {
+        "user_id": 24937,
+        "bookings": 1042
+    },
+    {
+        "user_id": 24974,
+        "bookings": 318
+    },
+    {
+        "user_id": 25064,
+        "bookings": 1195
+    },
+    {
+        "user_id": 25124,
+        "bookings": 638
+    },
+    {
+        "user_id": 25126,
+        "bookings": 386
+    },
+    {
+        "user_id": 25246,
+        "bookings": 653
+    },
+    {
+        "user_id": 25249,
+        "bookings": 202
+    },
+    {
+        "user_id": 25294,
+        "bookings": 184
+    },
+    {
+        "user_id": 25366,
+        "bookings": 590
+    },
+    {
+        "user_id": 25395,
+        "bookings": 467
+    },
+    {
+        "user_id": 25433,
+        "bookings": 462
+    },
+    {
+        "user_id": 25465,
+        "bookings": 598
+    },
+    {
+        "user_id": 25489,
+        "bookings": 30
+    },
+    {
+        "user_id": 25609,
+        "bookings": 309
+    },
+    {
+        "user_id": 25703,
+        "bookings": 344
+    },
+    {
+        "user_id": 25905,
+        "bookings": 840
+    },
+    {
+        "user_id": 25916,
+        "bookings": 22
+    },
+    {
+        "user_id": 25999,
+        "bookings": 287
+    },
+    {
+        "user_id": 26204,
+        "bookings": 172
+    },
+    {
+        "user_id": 26243,
+        "bookings": 338
+    },
+    {
+        "user_id": 26251,
+        "bookings": 348
+    },
+    {
+        "user_id": 26265,
+        "bookings": 202
+    },
+    {
+        "user_id": 26425,
+        "bookings": 228
+    },
+    {
+        "user_id": 26544,
+        "bookings": 147
+    },
+    {
+        "user_id": 26565,
+        "bookings": 302
+    },
+    {
+        "user_id": 26731,
+        "bookings": 329
+    },
+    {
+        "user_id": 26825,
+        "bookings": 380
+    },
+    {
+        "user_id": 26937,
+        "bookings": 126
+    },
+    {
+        "user_id": 27045,
+        "bookings": 321
+    },
+    {
+        "user_id": 27046,
+        "bookings": 97
+    },
+    {
+        "user_id": 27051,
+        "bookings": 244
+    },
+    {
+        "user_id": 27056,
+        "bookings": 200
+    },
+    {
+        "user_id": 27103,
+        "bookings": 3
+    },
+    {
+        "user_id": 27146,
+        "bookings": 248
+    },
+    {
+        "user_id": 27208,
+        "bookings": 219
+    },
+    {
+        "user_id": 27357,
+        "bookings": 32
+    },
+    {
+        "user_id": 27387,
+        "bookings": 8
+    },
+    {
+        "user_id": 27401,
+        "bookings": 98
+    },
+    {
+        "user_id": 27424,
+        "bookings": 160
+    },
+    {
+        "user_id": 27527,
+        "bookings": 275
+    },
+    {
+        "user_id": 27560,
+        "bookings": 91
+    },
+    {
+        "user_id": 27564,
+        "bookings": 201
+    },
+    {
+        "user_id": 27652,
+        "bookings": 222
+    },
+    {
+        "user_id": 27670,
+        "bookings": 301
+    },
+    {
+        "user_id": 27691,
+        "bookings": 50
+    },
+    {
+        "user_id": 27880,
+        "bookings": 375
+    },
+    {
+        "user_id": 27941,
+        "bookings": 216
+    },
+    {
+        "user_id": 27942,
+        "bookings": 134
+    },
+    {
+        "user_id": 27973,
+        "bookings": 84
+    },
+    {
+        "user_id": 27977,
+        "bookings": 48
+    },
+    {
+        "user_id": 28153,
+        "bookings": 145
+    },
+    {
+        "user_id": 28174,
+        "bookings": 90
+    },
+    {
+        "user_id": 28302,
+        "bookings": 65
+    },
+    {
+        "user_id": 28323,
+        "bookings": 232
+    },
+    {
+        "user_id": 28339,
+        "bookings": 99
+    },
+    {
+        "user_id": 28381,
+        "bookings": 110
+    },
+    {
+        "user_id": 28395,
+        "bookings": 133
+    },
+    {
+        "user_id": 28406,
+        "bookings": 41
+    },
+    {
+        "user_id": 28410,
+        "bookings": 170
+    },
+    {
+        "user_id": 28455,
+        "bookings": 125
+    },
+    {
+        "user_id": 28459,
+        "bookings": 86
+    },
+    {
+        "user_id": 28461,
+        "bookings": 117
+    },
+    {
+        "user_id": 28516,
+        "bookings": 108
+    },
+    {
+        "user_id": 28588,
+        "bookings": 85
+    },
+    {
+        "user_id": 28591,
+        "bookings": 95
+    },
+    {
+        "user_id": 28594,
+        "bookings": 64
+    },
+    {
+        "user_id": 28683,
+        "bookings": 56
+    },
+    {
+        "user_id": 28698,
+        "bookings": 42
+    },
+    {
+        "user_id": 28722,
+        "bookings": 60
+    },
+    {
+        "user_id": 28772,
+        "bookings": 112
+    },
+    {
+        "user_id": 28839,
+        "bookings": 25
+    },
+    {
+        "user_id": 28845,
+        "bookings": 43
+    },
+    {
+        "user_id": 28911,
+        "bookings": 67
+    },
+    {
+        "user_id": 28915,
+        "bookings": 1
+    },
+    {
+        "user_id": 28937,
+        "bookings": 17
+    },
+    {
+        "user_id": 28974,
+        "bookings": 76
+    },
+    {
+        "user_id": 28975,
+        "bookings": 80
+    },
+    {
+        "user_id": 29164,
+        "bookings": 3
+    }
+]

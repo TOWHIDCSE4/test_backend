@@ -1,0 +1,31 @@
+# STAGE 1
+FROM node:16.20.2-alpine as builder
+RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+WORKDIR /home/node/app
+COPY package*.json ./
+USER node
+RUN yarn install
+COPY --chown=node:node . .
+RUN yarn build
+
+# STAGE 2
+FROM node:16.20.2-alpine
+RUN apk add --no-cache tzdata
+
+# Set Timezone
+ENV TZ Asia/Ho_Chi_Minh
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+WORKDIR /home/node/app
+COPY package*.json ./
+USER node
+
+# RUN npm install --production
+COPY --from=builder /home/node/app/build ./build
+COPY --from=builder /home/node/app/node_modules ./node_modules
+
+COPY --chown=node:node ./config/dev.json ./config/default.json
+
+EXPOSE 5501
+CMD [ "node", "build/index.js" ]

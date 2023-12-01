@@ -1,0 +1,37 @@
+{
+  "lastRun": "1651516848549-update-activation-date-regular-calendar.js",
+  "migrations": [
+    {
+      "title": "1630778315297-teacher-level-to-teacher.js",
+      "timestamp": 1636395835949
+    },
+    {
+      "title": "1630778388166-teacher-level-ref-to-teacher.js",
+      "timestamp": 1636395836268
+    },
+    {
+      "title": "1636395543612-user-communicate-tools-to-skype.js",
+      "timestamp": 1636395836555
+    },
+    {
+      "title": "1636704848622-add-package-list-to-courses.js",
+      "timestamp": 1636704975850
+    },
+    {
+      "title": "1636705157663-add-subject-to-packages.js",
+      "timestamp": 1636705791511
+    },
+    {
+      "title": "1649304270510-update-date-of-birth-user.js",
+      "timestamp": 1649317971005
+    },
+    {
+      "title": "1649913914945-update-salary-status.js",
+      "timestamp": 1649915165867
+    },
+    {
+      "title": "1651516848549-update-activation-date-regular-calendar.js",
+      "timestamp": 1651518095165
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+*.css
+*.svg
+node_modules/
+public/
+dist/
+build/
+package.json
+*.d.ts
+src/react-app-env.d.ts
+src/reportWebVitals.ts
+src/reportWebVitals.js
+src/setupTests.js

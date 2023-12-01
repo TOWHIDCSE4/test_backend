@@ -1,0 +1,41 @@
+name: CI/CD branch Staging
+on:
+    push:
+        branches: [staging]
+    workflow_dispatch:
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Publish to Github Packages Registry
+              uses: elgohr/Publish-Docker-Github-Action@v4
+              with:
+                  name: ispeakvn/ispeak-backend/ispeak-backend
+                  registry: docker.pkg.github.com
+                  username: ${{ secrets.DOCKER_USERNAME }}
+                  password: ${{ secrets.DOCKER_TOKEN }}
+                  dockerfile: Dockerfile-stg
+                  tags: staging
+            - name: SSH and deploy node app
+              uses: appleboy/ssh-action@master
+              env:
+                  E_TAG: staging
+                  NODE_ENV: production
+                  SOURCE_DIR: /www/wwwroot/ispeak-test1
+                  DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+                  DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
+                  MONGO_URI_BACKEND: mongodb://admin:admin@15.235.146.56:27017/ispeak-backend
+              with:
+                  host: 15.235.146.56
+                  username: centos
+                  key: ${{ secrets.SSH_KEY_STG }}
+                  #   passphrase: ${{ secrets.SSH_PASSPHRASE_PROD }}
+                  port: 22
+                  envs: SOURCE_DIR, E_TAG, NODE_ENV, DOCKER_USERNAME, DOCKER_TOKEN, MONGO_URI_BACKEND
+                  script: |
+                      cd $SOURCE_DIR
+                      docker login docker.pkg.github.com -u $DOCKER_USERNAME -p $DOCKER_TOKEN
+                      docker pull docker.pkg.github.com/ispeakvn/ispeak-backend/ispeak-backend:$E_TAG
+                      export DOCKERHOST=172.21.0.1 E_TAG=$E_TAG NODE_ENV=$NODE_ENV MONGO_URI_BACKEND=$MONGO_URI_BACKEND
+                      docker-compose up -d --force-recreate --no-deps --build backend

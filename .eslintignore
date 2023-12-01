@@ -1,0 +1,40 @@
+# ignore 3rd party lib
+node_modules
+
+# ignore key
+*.pem
+
+# Ignore built files
+build
+
+# Environment varibles
+*.env
+*.env.*
+config.json
+
+
+test.js
+.eslintrc.json
+
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.idea
+uploads/*
+downloads
+exports
+
+# Ingore logs
+logs
+*-lock.json
+*.log
+
+*.lock
+
+# Vim swp files
+*.swp
+*.swo
+
+migrations/*
+pm2
+
+# Temporary docs/index
+docs/*
